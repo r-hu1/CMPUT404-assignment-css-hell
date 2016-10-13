@@ -1,0 +1,1 @@
+Only change to Gutenberg HTMl files was adding <link rel="stylesheet" href ="style1.css">

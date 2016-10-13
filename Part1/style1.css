@@ -1,0 +1,62 @@
+h1 {
+    text-align:center;
+    font-family: fantasy;
+    color: blue;
+    font-size: 250%;
+    /*color: linear-gradient(270deg, #7eff54, #feff54, #ff8054, #8470ff, #70f4ff);
+    background: -moz-linear-gradient(top,  #ff0000, #fff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#fff));
+    background: -o-linear-gradient(rgb(207,221,172),rgb(255,255,255));*/
+}
+
+h2, h3, h4, h5, h6 {
+    text-align:center;
+    font-family: fantasy;
+    color: brown;
+    font-size: x-large;
+}
+
+a {
+    text-align: center;
+    font-family: fantasy;
+    color: darkred;
+    font-size: large;
+    /*text-indent: 2em;*/
+}
+
+tr {
+    text-align: center;
+    font-family: fantasy;
+    color: red;
+    font-size: large;
+}
+
+body {
+    padding: 3em;
+    font-family: fantasy;
+    background-color: #F4CF89;
+}
+
+.fig {
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 10px 10px 1px 10px;
+    border:1px solid #021a40;
+    background-color: red;
+}
+
+p {
+    font-family: cursive;
+    /*text-indent: 2em;*/
+}
+
+
+
+
+
+
+
+
+
+
