@@ -1,36 +1,44 @@
 body{
     font-family: cursive;
-    background-image: url("backgroundu.jpg");
     color: black;
 }
 
 header {
-    background-image: url("sparkle.jpg");
+    
     color:white;
     text-align:center;
     font-size: 25px;
     padding:5px;
+    z-index: 5px;
 }
 
-footer {
-    /*position:relative;*/
-    bottom: 0;
-    background-color:yellow;
-    color:black;
-    clear:both;
-    text-align:center;
-    padding:5px;
+.insidepic {
+    background-image: url("sparkle.jpg");
 }
 
+h1 {
+    /*text: transparent;
+     color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     background-image: -webkit-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+     background-image: linear-gradient(90deg, red 0%, orange 11%, yellow 22%, green 40%, blue 60%, indigo 80%, violet 100%);*/
+    
+    color: transparent;
+    -webkit-text-fill-color: transparent:
+    background: -webkit-linear-gradient(90deg, yellow, green, blue, indigo, violet);
+    background: linear-gradient(90deg, green 0%, lightblue 20%, pink 48%, yellow 50%, red 55%, yellow 60%, green 65%, red 70%, lightgreen 80%, pink 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
 
 .movement {
-    position:relative;
     display:table;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     text-align:center;
-    vertical-align: middle;
-    background-color: red;
 }
 
 .movement u1 {
@@ -42,6 +50,7 @@ footer {
 }
 
 .movement li {
+    border: 1px solid black;
     float:left;
 }
 
@@ -58,6 +67,41 @@ footer {
 .movement a:hover {
     color: white;
     background-color: black;
+}
+
+.movementf {
+    display:table;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.movementf footer {
+    list-style:none;
+    display:inline-block;
+}
+.movementf footer {
+    display:inline;
+}
+
+.movementf li {
+    border: 1px solid black;
+    float:left;
+}
+
+.movementf a {
+    display:block;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.movementf a:hover {
+    color: #e9ece5;
+    background-color: #3b3a36;
 }
 
 
@@ -81,7 +125,118 @@ footer {
     background-color: #ed2553;
 }
 
+
+
+.divall {
+    /*display: table;*/
+    /*position: absolute;*/
+    /*width: 100%;
+     height: inherit;*/
+    display: flex;
+    
+}
+
+body {
+    /*height: 100%;*/
+    /*display: flex;
+     flex-direction: column;*/
+}
+
+html {
+    /*height: 100%;*/
+}
+
+.allinfo {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    left: 2em;
+    width:70%;
+    float:left;
+    text-align:left;
+    display: table-cell;
+    
+    /*display: inline;*/
+    text-align: center;
+    
+    padding-top: 1em;
+    
+}
+
+.part1 {
+    
+    /*padding-right: 13em;*/
+    overflow: hidden;
+    boarder
+}
+
+.part1text {
+    text-align:left;
+    /*display: inline;*/
+}
+
+.part2 {
+    /*padding-right: 13em;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    overflow: hidden;
+    
+}
+
+.part2text {
+    text-align:center;
+}
+
+.part3 {
+    
+    /*padding-right: 13em;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    overflow: hidden;
+    
+}
+
+.part3text {
+    text-align:left;
+}
+
+.part4 {
+    /*padding-right: 13em;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    overflow: hidden;
+    padding-bottom: 3em;
+    
+}
+
+.part4text {
+    text-align:center;
+    
+}
+
+
 .profile {
+    float:left;
+    /*border-radius: 50%;
+    max-height: 200px;
+    padding-right: 2em;
+    width: auto;
+    height: auto;
+    margin-left: 2em;
+    padding-left: 300px;
+    background-repeat: repeat-y;
+    background-image: url("profilefake.jpg");*/
+    
+    border-radius: 50%;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("profilefake.jpg") no-repeat;
+    width: 200px; /* Width of new image */
+    height: 200px; /* Height of new image */
+    padding-left: 200px;
+}
+
+/*.profile {
     
     border-radius: 50%;
     padding: 10px 10px 10px 10px;
@@ -92,15 +247,80 @@ footer {
     padding-left: 300px;
     background-image: url("profilefake.jpg");
     
+}*/
+
+.history {
+    float:right;
+    border-radius: 50%;
+    max-height: 200px;
+    padding-right: 2em;
+    width: auto;
 }
 
+.whatoffer {
+    float:left;
+    border-radius: 50%;
+    max-height: 200px;
+    padding-right: 2em;
+    width: auto;
+    margin-left: 2em;
+}
+
+.importantpoint {
+    float:right;
+    border-radius: 50%;
+    max-height: 200px;
+    padding-right: 2em;
+    width: auto;
+}
+
+h3 {
+    margin: 2em;
+}
+
+P {
+    margin: 2em;
+}
+
+.sidebar {
+    /*position: relative;*/
+    /*height: inherit;*/
+    flex: 1;
+    
+    margin-top: 2em;
+    /*margin-bottom: 2em;*/
+    margin-right: 2em;
+    border: 1px solid #3b3a36;
+    background-color: orange;
+}
+
+.sidebar a {
+    margin: 1em;
+    
+}
+
+
+.spacer {
+    margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*.profile:hover {
-    width:200px;
-    height:200px;
-    box-sizing:border-box;
-    padding-left: 200px;    background-image: url("backgroundu.jpg");
-    background-color: lightpink;
-}*/
+ width:200px;
+ height:200px;
+ box-sizing:border-box;
+ padding-left: 200px;    background-image: url("backgroundu.jpg");
+ background-color: lightpink;
+ }*/
 
 
 
