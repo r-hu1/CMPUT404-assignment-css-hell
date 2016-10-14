@@ -230,7 +230,7 @@ html {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url("profilefake.jpg") no-repeat;
+    background: url("profilepic.jpg") no-repeat;
     width: 200px; /* Width of new image */
     height: 200px; /* Height of new image */
     padding-left: 200px;
